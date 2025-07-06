@@ -66,3 +66,21 @@ npm install
 # ou
 yarn install
 ```
+---
+
+## 📖 Uso
+
+- Na página inicial, veja os filmes mais populares.
+
+- Use a busca para procurar filmes específicos.
+
+- Clique em "Ver mais detalhes" para acessar a página do filme com informações completas.
+
+---
+
+## 📝 Considerações
+
+- O projeto está em constante desenvolvimento e melhorias são bem-vindas.
+
+- A paginação dos resultados de busca está em planejamento.
+
