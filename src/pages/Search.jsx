@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const searchURL = import.meta.env.VITE_SEARCH;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -83,7 +84,7 @@ const Search = () => {
       ) : (
         <>
           <motion.div
-            className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-7"
+            className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8"
             initial="hidden"
             animate="visible"
             variants={{
@@ -122,6 +123,14 @@ const Search = () => {
                         <FaStar className="mr-1" />
                         {movie.vote_average.toFixed(1)} / 10
                       </div>
+                    </div>
+                    <div className="flex justify-center pb-4">
+                      <Link
+                        to={`/movie/${movie.id}`}
+                        className="px-3 py-1 text-sm bg-blue-600 rounded hover:bg-blue-700 transition"
+                      >
+                        Ver mais detalhes
+                      </Link>
                     </div>
                   </motion.div>
                 ))

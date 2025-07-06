@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -32,11 +33,11 @@ const Home = () => {
         transition={{ duration: 0.6 }}
         className="text-2xl font-extrabold mb-8 text-left tracking-wide"
       >
-        Melhores Filmes
+        Filmes mais aclamados
       </motion.h1>
 
       <motion.div
-        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-7"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8"
         initial="hidden"
         animate="visible"
         variants={{
@@ -70,6 +71,14 @@ const Home = () => {
                 <FaStar className="mr-1" />
                 {movie.vote_average.toFixed(1)} / 10
               </div>
+            </div>
+            <div className="flex justify-center pb-4">
+              <Link
+                to={`/movie/${movie.id}`}
+                className="px-3 py-1 text-sm bg-blue-600 rounded hover:bg-blue-700 transition"
+              >
+                Ver mais detalhes
+              </Link>
             </div>
           </motion.div>
         ))}
