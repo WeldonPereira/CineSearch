@@ -1,4 +1,4 @@
-# 🎬 CineSearch - Aplicação de Filmes com React
+## 🎬 CineSearch - Aplicação de Filmes com React
 ![Captura de tela 2025-07-06 075618](https://github.com/user-attachments/assets/7929009d-db58-4fbd-b2f4-5018b0cf3656)
 ![Captura de tela 2025-07-06 080118](https://github.com/user-attachments/assets/1e80402c-5f92-4aac-9f4e-3542c647eaef)
 ![Captura de tela 2025-07-06 080038](https://github.com/user-attachments/assets/5b9bdcc8-5e0c-4335-a97a-b36f5cef1fa0)
