@@ -35,6 +35,7 @@
 - Vite (bundler e ambiente de desenvolvimento)  
 
 ---
+
 ## 🔑 Obtenha sua chave da API TMDB
 
 Para que a aplicação funcione corretamente, é necessário obter uma chave de API do [The Movie Database (TMDB)](https://www.themoviedb.org/). Siga os passos abaixo para conseguir a sua:
