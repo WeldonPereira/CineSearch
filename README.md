@@ -21,7 +21,7 @@
 - Visualização detalhada de cada filme (sinopse, nota, duração, gêneros, etc)  
 - Navegação dinâmica utilizando React Router  
 - Animações suaves com Framer Motion  
-- Interface responsiva para desktop e dispositivos móveis  
+- Interface responsiva para desktop e dispositivos móveis.
 
 ---
 
